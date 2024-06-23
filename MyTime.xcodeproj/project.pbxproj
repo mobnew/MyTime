@@ -14,6 +14,8 @@
 		949A1AA12C26CC4D0038A79D /* MyTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 949A1A9F2C26CC4D0038A79D /* MyTime.xcdatamodeld */; };
 		949A1AA32C26CC4E0038A79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949A1AA22C26CC4E0038A79D /* Assets.xcassets */; };
 		949A1AA62C26CC4E0038A79D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 949A1AA52C26CC4E0038A79D /* Base */; };
+		949A1AAE2C26CC780038A79D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A1AAD2C26CC780038A79D /* CoreDataManager.swift */; };
+		949A1AB02C26D9B40038A79D /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A1AAF2C26D9B40038A79D /* DayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		949A1AA22C26CC4E0038A79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949A1AA52C26CC4E0038A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949A1AA72C26CC4E0038A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949A1AAD2C26CC780038A79D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		949A1AAF2C26D9B40038A79D /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				949A1A962C26CC4D0038A79D /* AppDelegate.swift */,
+				949A1AAD2C26CC780038A79D /* CoreDataManager.swift */,
 				949A1A982C26CC4D0038A79D /* SceneDelegate.swift */,
 				949A1A9A2C26CC4D0038A79D /* ViewController.swift */,
+				949A1AAF2C26D9B40038A79D /* DayCell.swift */,
 				949A1A9C2C26CC4D0038A79D /* Main.storyboard */,
 				949A1AA22C26CC4E0038A79D /* Assets.xcassets */,
 				949A1AA42C26CC4E0038A79D /* LaunchScreen.storyboard */,
@@ -144,6 +150,8 @@
 				949A1AA12C26CC4D0038A79D /* MyTime.xcdatamodeld in Sources */,
 				949A1A9B2C26CC4D0038A79D /* ViewController.swift in Sources */,
 				949A1A972C26CC4D0038A79D /* AppDelegate.swift in Sources */,
+				949A1AAE2C26CC780038A79D /* CoreDataManager.swift in Sources */,
+				949A1AB02C26D9B40038A79D /* DayCell.swift in Sources */,
 				949A1A992C26CC4D0038A79D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
